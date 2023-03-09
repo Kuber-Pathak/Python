@@ -1,15 +1,24 @@
-class Employee:
-    company_name= " visa "
+class Person:
+    country = "Nepal"
 
-class Freelancer:
-    company = "Fiverr"
+    def takebreak(self):
+            print("i am on break..")
+    
 
-    def display(self):
-        print(self.company)
+class Employee(Person):
+    company = "Tesla"
 
-class Programmer(Employee,Freelancer):
-    name="Ram"
+    def getSalary(slef):
+        print(f"salary is 5000")
 
-p=Programmer()
-print(p.company_name)
-p.display()
+class Programmer(Employee):
+     company_name = "Fiver"
+
+     def salary(self):
+          print("No salary for programmer")
+
+
+p = Programmer()
+p.takebreak()
+p.getSalary()
+p.salary()
