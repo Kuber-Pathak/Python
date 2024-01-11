@@ -1,0 +1,16 @@
+What is numpy?
+    -It is a python library used for working with arrays
+
+Why to use Numy?
+    -Numpy is faster because it reads less bytes.
+
+why is Numpy faster?
+    -It is faster because we can specidy the input type
+    -In list it takes default tpye which contains 4 different types and take up more bytes
+    -No typechecking when reading objects
+    -It has contigious memory 
+
+Application of Numpy
+    -Mathematics operations
+    -Backend of many others
+    -machine learning
